@@ -1,6 +1,6 @@
-#Paginated CRUD API with Rust, Rocket and Diesel on SQLite3
+# Paginated CRUD API with Rust, Rocket and Diesel on SQLite3
 
-##Rust
+## Rust
 **Performance**
 
 Rust is blazingly fast and memory-efficient: with no runtime or garbage collector, it can power performance-critical services, run on embedded devices, and easily integrate with other languages.
@@ -16,12 +16,12 @@ Rust has great documentation, a friendly compiler with useful error messages, an
 https://www.rust-lang.org/
 
 
-##Rocket
+## Rocket
 Rocket is a web framework for Rust that makes it simple to write fast, secure web applications without sacrificing flexibility, usability, or type safety.
 
 https://rocket.rs/master/overview/
 
-##Diesel
+## Diesel
 Diesel is a Safe, Extensible ORM and Query Builder for Rust
 **Preventing Runtime Errors**
 
@@ -40,7 +40,7 @@ No need to present this.
 
 -----------
 
-##To get this to work:
+## To get this to work:
 - Clone this repo
 - Have SQLite3 installed on your machine with `brew install sqlite3`
 - Install Rust toolchain with `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
@@ -49,4 +49,6 @@ No need to present this.
 - Install Diesel with `cargo install diesel_cli --no-default-features --features sqlite`
 - Run Diesel db migration `diesel migration run`, it will create `db.db` in the root folder
 - Running `cargo run` again should start the Rocket server, like below:
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/2720451/157904380-2001ecb0-4c5d-4ec4-ae47-3d7ab4148f2d.png">
+
 
