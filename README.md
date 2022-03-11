@@ -35,7 +35,7 @@ Diesel offers a high level query builder and lets you think about your problems 
 
 Unlike Active Record and other ORMs, Diesel is designed to be abstracted over. Diesel enables you to write reusable code and think in terms of your problem domain and not SQL.
 
-##SQLite
+## SQLite
 No need to present this.
 
 -----------
