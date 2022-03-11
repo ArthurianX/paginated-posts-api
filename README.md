@@ -1,5 +1,8 @@
 # Paginated CRUD API with Rust, Rocket and Diesel on SQLite3
 
+https://user-images.githubusercontent.com/2720451/157906631-c306a950-1c6d-4752-85f4-63ac390694d0.mov
+
+
 ## Rust
 **Performance**
 
